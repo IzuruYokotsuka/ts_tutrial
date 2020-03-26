@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "strict": true,
+    "target": "ES5", //何に変換するか
+    "outDir": "lib" //compile済みをoutputする先(出力先)
+  },
+  // compileしたいもの。
+  "include": ["src/**/*.ts", "src/**/*.d.ts"],
+  // compileしたくないもの
+  "exclude": ["node_modules"]
+}

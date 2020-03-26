@@ -1,0 +1,13 @@
+{
+  "name": "ts_sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Izuru Yokotsuka <izurudazyo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
